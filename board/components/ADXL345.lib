@@ -1,0 +1,40 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# ADXL345
+#
+DEF ADXL345 U 0 40 Y Y 1 L N
+F0 "U" -300 510 50 H V L BNN
+F1 "ADXL345" -300 -610 50 H V L BNN
+F2 "LGA-14" 0 0 50 H I L BNN
+F3 "None" 0 0 50 H I L BNN
+F4 "Bad" 0 0 50 H I L BNN
+F5 "LGA-14 Analog Devices" 0 0 50 H I L BNN
+F6 "ADXL345" 0 0 50 H I L BNN
+F7 "Accelerometer X, Y, Z Axis ±2g, 4g, 8g, 16g 0.05Hz ~ 1.6kHz 14-LGA (3x5)" 0 0 50 H I L BNN
+F8 "Analog Devices" 0 0 50 H I L BNN
+DRAW
+P 2 0 0 10 -300 500 400 500 N
+P 2 0 0 10 400 500 400 -600 N
+P 2 0 0 10 400 -600 -300 -600 N
+P 2 0 0 10 -300 -600 -300 500 N
+X VDD 1 -400 400 100 R 40 40 0 0 B 
+X NC@11 11 -400 -100 100 R 40 40 0 0 B 
+X NC@3 3 -400 100 100 R 40 40 0 0 B 
+X GND@4 4 -400 -400 100 R 40 40 0 0 B 
+X GND@5 5 -400 -500 100 R 40 40 0 0 B 
+X VS 6 -400 300 100 R 40 40 0 0 B 
+X CS 7 500 400 100 L 40 40 0 0 B 
+X INT1 8 500 -200 100 L 40 40 0 0 B 
+X INT2 9 500 -300 100 L 40 40 0 0 B 
+X GND@2 2 -400 -300 100 R 40 40 0 0 B 
+X NC@10 10 -400 0 100 R 40 40 0 0 B 
+X SDO 12 500 200 100 L 40 40 0 0 B 
+X SDA 13 500 100 100 L 40 40 0 0 B 
+X SCL 14 500 0 100 L 40 40 0 0 B 
+ENDDRAW
+ENDDEF
+#
+# End Library

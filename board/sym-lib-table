@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name ADXL345)(type Legacy)(uri ${KIPRJMOD}/components/ADXL345.lib)(options "")(descr ""))
+  (lib (name SIM800lBB)(type Legacy)(uri ${KIPRJMOD}/components/SIM800lBB.lib)(options "")(descr ""))
+  (lib (name SIM800LM)(type Legacy)(uri D:/TorpedoZero/components/SIM800L_module/SIM800L_lib/sim800l.lib)(options "")(descr ""))
+)

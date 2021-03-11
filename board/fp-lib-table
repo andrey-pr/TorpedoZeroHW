@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name ADXL345)(type Legacy)(uri ${KIPRJMOD}/components/ADXL345.mod)(options "")(descr ""))
+  (lib (name SIM800lBB)(type KiCad)(uri ${KIPRJMOD}/components/SIM800lBB.pretty)(options "")(descr ""))
+  (lib (name SIM800LM)(type KiCad)(uri ${KIPRJMOD}/components/SIM800L_module/SIM800L.pretty)(options "")(descr ""))
+)
